@@ -216,6 +216,10 @@ a {
         margin: 0 auto;
     }
 
+    .input-field:focus {
+        outline: none;
+    }
+
     .card-container {
         width: 100vw;
         padding-top: 4rem;
