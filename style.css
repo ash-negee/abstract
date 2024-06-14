@@ -85,7 +85,7 @@ a {
     margin: 0 auto;
     padding: 8rem 0;
 }
-.row {
+.card-section .row {
     display: flex;
     flex-wrap: wrap;
     margin: 0px -25px;
