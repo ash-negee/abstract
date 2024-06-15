@@ -190,7 +190,7 @@ a {
 }
 
 /* Responsive Design */
-@media (max-width : 720px) {
+@media (max-width : 810px) {
     .header {
         padding: 20px 5px;
     }
@@ -202,6 +202,7 @@ a {
 
     .nav-link {
         font-size: 12px;
+        font-weight: 900;
         padding: 5px 10px;
     }
 
@@ -258,5 +259,11 @@ a {
         display: flex;
         align-items: center;
         justify-content: left;
+    }
+}
+@media  (max-width: 400px) {;
+    .nav-link{
+        font-size: 10px;
+        font-weight: 700;
     }
 }
