@@ -95,6 +95,10 @@ a {
     padding: 18px 10px;
 }
 
+.input-field:focus {
+    outline: none;
+}
+
 /* card section */
 .card-container {
     width: 1200px;
@@ -107,7 +111,7 @@ a {
     flex-wrap: wrap;
 }
 
-.card-section .row {
+.card-container .row {
     margin: 0px -25px;
 }
 
@@ -181,6 +185,9 @@ a {
 .footer-card .brand-logo {
     font-size: 25px;
 }
+.footer-container .row{
+    margin: 0 -15px;
+}
 
 /* Responsive Design */
 @media (max-width : 720px) {
@@ -216,14 +223,14 @@ a {
         margin: 0 auto;
     }
 
-    .input-field:focus {
-        outline: none;
-    }
-
     .card-container {
         width: 100vw;
         padding-top: 4rem;
         padding-bottom: 0;
+    }
+
+    .card-container .row {
+        margin: 0;
     }
 
     .col-6 {
